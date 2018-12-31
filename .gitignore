@@ -6,5 +6,6 @@ package-lock.json
 /archive/*
 
 #Ignore shell scripts to deploy repository
-gitpush.bat
-gitfix.bat
+init.bat
+push.bat
+fix.bat

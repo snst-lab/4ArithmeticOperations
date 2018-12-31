@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": " ",
+  "scripts": {
+    "gulp": "node ./node_modules/gulp/bin/gulp.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint solution/*.js --fix"
+  },
   "eslintConfig": {
     "env": {
       "browser": true,
@@ -10,13 +15,15 @@
     }
   },
   "eslintIgnore": [],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint solution/*.js --fix"
-  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.11.1"
+    "eslint": "^5.11.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "npm-lifecycle": "^2.1.0",
+    "power-assert": "^1.6.1",
+    "run-sequence": "^2.2.1"
   }
 }
