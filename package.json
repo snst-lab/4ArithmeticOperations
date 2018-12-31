@@ -5,7 +5,7 @@
   "main": " ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint *.js --fix"
+    "eslint": "eslint solution/*.js --fix"
   },
   "author": "",
   "license": "MIT"
