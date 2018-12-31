@@ -66,8 +66,5 @@ var src = {
 		}
 	}
 };
-//(1+2)/3*4 -> 12+3/4*
-console.log(src.main('12+3/4*'));
-console.log(src.main2('12+3/4*'));
 
 module.exports = src;

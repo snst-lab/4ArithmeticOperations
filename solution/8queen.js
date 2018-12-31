@@ -1,5 +1,8 @@
 var src = {
-	
+	/**
+	 * @int n=128 : Scale 
+	 * @int m=8 : Num of Queen
+	 */
 	main: function (n, m) {
 		const N = n ** 2;
 		const q = new Array(m);
@@ -36,6 +39,5 @@ var src = {
 		}
 	}
 };
-console.log(src.main(128, 8));
 
 module.exports = src;
