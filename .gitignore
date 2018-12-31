@@ -1,0 +1,6 @@
+#Ignore the archive directory
+/archive/*
+
+#Ignore shell scripts to deploy repository
+gitpush.bat
+gitfix.bat
