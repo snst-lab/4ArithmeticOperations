@@ -21,6 +21,6 @@
     "eslint": "^5.11.1",
     "gulp": "^3.9.1",
     "gulp-mocha": "^3.0.1",
-    "power-assert": "^1.6.1",
+    "power-assert": "^1.6.1"
   }
 }
