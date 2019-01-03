@@ -1,11 +1,11 @@
 {
-  "name": "linecorp.cordingtest",
+  "name": "4ArithmeticOperations",
   "version": "1.0.0",
-  "description": "This is one of solution by javascript for entry examination to LINE Corp. introduced at the following site.",
+  "description": "Definition of four arithmetic operations using only logical operations.",
   "main": " ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint solution/*.js --fix",
+    "eslint": "eslint src/*.js --fix",
     "gulp": "node ./node_modules/gulp/bin/gulp.js"
   },
   "eslintConfig": {

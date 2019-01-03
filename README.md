@@ -1,10 +1,14 @@
-[![Build Status](https://travis-ci.org/snst-lab/linecorp.cordingtest.svg?branch=master)](https://travis-ci.org/snst-lab/linecorp.cordingtest) 
+[![Build Status](https://travis-ci.org/snst-lab/4ArithmeticOperations.svg?branch=master)](https://travis-ci.org/snst-lab/4ArithmeticOperations) 
 
-linecorp.cordingtest
+4ArithmeticOperations
 ====
-This is one of solution by javascript for entry examination to LINE Corp. introduced at the following site.  
- [URL (https://www.slideshare.net/linecorp/line-80520817)](https://www.slideshare.net/linecorp/line-80520817) 
- 
- > - Reverse Polish - solution/reversePolish.js
- > - 8 Queen - solution/8queen.js
- > - Simple substitution cipher - The content of the problem is unknown
+Definition of four arithmetic operations using only logical operations below. 
+
+> **a << shift** : Left Shift ( = a * 2\**shift )
+> **a >> shift** : Right Shift ( = a / 2\**shift )
+> **a | b** : OR  (If either is 1, it equals 1)
+> **a & b** : AND (If both are 1, it equals 1)
+> **a ^ b** : XOR (If the values are different, it equals 1)
+> **~a>>>0** : NOT (Invert value)
+> **a || b** : OR (in condition)
+> **a && b** : AND (in condition)
