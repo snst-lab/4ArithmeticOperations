@@ -1,0 +1,26 @@
+{
+  "name": "4ArithmeticOperations",
+  "version": "1.0.0",
+  "description": "Definition of four arithmetic operations using only logical operations.",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint src/*.js --fix",
+    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "eslintIgnore": [],
+  "author": "Tanusuke",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "power-assert": "^1.6.1"
+  }
+}
